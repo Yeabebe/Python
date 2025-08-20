@@ -4,7 +4,7 @@ class Solution:
         INT_MAX = 2**31 - 1
         INT_MIN = -2**31
         
-        # Edge case, overflow
+        # Edge case
         if dividend == INT_MIN and divisor == -1:
             return INT_MAX
         
@@ -29,5 +29,4 @@ class Solution:
         if negative:
             quotient = -quotient
         
-        # Clamp result to 32-bit range
         return max(INT_MIN, min(INT_MAX, quotient))
