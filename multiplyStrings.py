@@ -6,7 +6,7 @@ class Solution:
         m, n = len(num1), len(num2)
         result = [0] * (m + n)  
 
-        # multiply digits from right to left
+        # multiply digits from right to left 
         for i in range(m - 1, -1, -1):
             for j in range(n - 1, -1, -1):
                 mul = int(num1[i]) * int(num2[j])
