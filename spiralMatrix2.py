@@ -1,3 +1,5 @@
+from typing import list
+
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         # create empty n x n matrix
