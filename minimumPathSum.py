@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
