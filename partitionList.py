@@ -1,3 +1,6 @@
+from typing import Optional
+from typing import ListNode
+
 class Solution:
     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
         # Dummy nodes for two partitions
