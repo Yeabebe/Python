@@ -1,3 +1,6 @@
+from typing import Optional
+from typing import ListNode 
+
 class Solution:
     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
         if not head or left == right:
