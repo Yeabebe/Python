@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List, Optional, TreeNode
 
 class Solution:
     def generateTrees(self, n: int) -> List[Optional[TreeNode]]:
