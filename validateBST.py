@@ -1,3 +1,5 @@
+from typing import Optional, TreeNode
+
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
         def validate(node, low = float('-inf'), high=float('inf')):
