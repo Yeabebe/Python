@@ -1,3 +1,5 @@
+from typing import Optional, TreeNode
+
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         def isMirror(t1,t2):
