@@ -1,3 +1,5 @@
+from typing import List, Optional, TreeNode
+
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         if not preorder or not inorder:
