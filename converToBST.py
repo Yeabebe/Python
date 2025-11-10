@@ -1,3 +1,5 @@
+from typing import ListNode, TreeNode, Optional
+
 class Solution:
     def sortedListToBST(self, head: Optional[ListNode]) -> Optional[TreeNode]:
         def findMiddle(start):
