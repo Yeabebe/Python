@@ -1,3 +1,5 @@
+from typing import Optional, TreeNode
+
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
 
