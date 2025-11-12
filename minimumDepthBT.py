@@ -1,3 +1,5 @@
+from typing import Optional, TreeNode
+
 class Solution:
     def minDepth(self, root: Optional[TreeNode]) -> int:
         if not root:
