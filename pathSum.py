@@ -1,3 +1,5 @@
+from typing import Optional, TreeNode 
+
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         if not root:
