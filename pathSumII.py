@@ -1,3 +1,5 @@
+from typing import List, Optional, TreeNode 
+
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
         res = []
