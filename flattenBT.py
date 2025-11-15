@@ -1,3 +1,5 @@
+from typing import Optional, TreeNode
+
 class Solution:
     def flatten(self, root: Optional[TreeNode]) -> None:
         """
