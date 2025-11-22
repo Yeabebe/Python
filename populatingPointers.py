@@ -1,3 +1,5 @@
+from typing import Optional, Node 
+
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
         if not root:
