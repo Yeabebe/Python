@@ -1,3 +1,5 @@
+from typing import Node
+
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         if not root:
