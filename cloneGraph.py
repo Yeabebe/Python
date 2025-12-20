@@ -1,3 +1,5 @@
+from typing import Optional, Node
+
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         if not node:
