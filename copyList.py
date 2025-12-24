@@ -1,3 +1,5 @@
+from typing import Optional, Node
+
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
         if not head:
