@@ -1,3 +1,5 @@
+from typing import Optional, ListNode
+
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head:
