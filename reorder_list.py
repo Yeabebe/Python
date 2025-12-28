@@ -1,3 +1,4 @@
+from typing import Optional, ListNode
 
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
