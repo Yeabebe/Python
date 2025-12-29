@@ -1,3 +1,5 @@
+from typing import List, Optional, TreeNode
+
 class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         result = []
