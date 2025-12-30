@@ -1,3 +1,5 @@
+from typing import Optional, TreeNode, List
+
 class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         result = []
