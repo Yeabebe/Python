@@ -1,13 +1,14 @@
+from typing import Optional, ListNode
+
 class Solution:
     def insertionSortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        dummy = ListNode(0)   # dummy head for sorted list
+        dummy = ListNode(0)   
         curr = head
         
         while curr:
             prev = dummy
-            nxt = curr.next   # save next node
+            nxt = curr.next   
             
-            # find insertion position
             while prev.next and prev.next.val < curr.val:
                 prev = prev.next
             
