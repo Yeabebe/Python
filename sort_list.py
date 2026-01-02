@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, ListNode
 
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
