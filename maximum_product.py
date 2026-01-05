@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         max_prod = min_prod = result = nums[0]
