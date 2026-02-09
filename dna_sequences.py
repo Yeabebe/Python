@@ -1,3 +1,6 @@
+from typing import List
+from collections import defaultdict
+
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
         seen = defaultdict(int)
