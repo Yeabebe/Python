@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def rob(self, nums: List[int]) -> int:
         prev1 = 0  # dp[i-1]
